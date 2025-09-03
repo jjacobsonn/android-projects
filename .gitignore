@@ -1,0 +1,79 @@
+# Android/IntelliJ/Gradle related
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.iml
+*.hprof
+*.log
+*.keystore
+*.jks
+*.apk
+*.ap_ 
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.swp
+*.swo
+*.tmp
+*.orig
+*.bak
+*.rej
+*.orig.*
+*.sublime-workspace
+*.sublime-project
+
+# Android Studio
+.idea/
+*.iws
+*.ipr
+*.iws
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# OS generated
+Thumbs.db
+Desktop.ini
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+
+# Signing files
+*.jks
+*.keystore
+
+# Crashlytics
+crashlytics-build.properties
+fabric.properties
+
+# Google Services (if used)
+google-services.json
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# NDK
+obj/
+
+# VS Code
+.vscode/
