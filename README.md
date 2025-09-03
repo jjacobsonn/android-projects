@@ -1,5 +1,14 @@
 
+
 # Android Projects
+
+<p align="left">
+	<img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+	<img alt="Android Studio" src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" />
+	<img alt="Gradle" src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" />
+	<img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+	<img alt="Jetpack" src="https://img.shields.io/badge/Jetpack-4285F4?style=for-the-badge&logo=android&logoColor=white" />
+</p>
 
 This repository contains a collection of Android projects built to practice and demonstrate modern mobile development skills using Kotlin, Java, and the Android SDK. Each project is organized in its own folder and can be run independently.
 
