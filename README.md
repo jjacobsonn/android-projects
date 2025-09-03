@@ -1,6 +1,4 @@
-# Android Projects at UVU
-
-
+# Android Projects
 This repository contains the projects I completed during my time at Utah Valley University for the Mobile Device Programming course.
 
 ## Overview
