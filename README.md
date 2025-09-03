@@ -1,24 +1,39 @@
+
 # Android Projects
-This repository contains the projects I completed during my time at Utah Valley University for the Mobile Device Programming course.
 
-## Overview
-- Projects demonstrate concepts and skills learned in Android development.
-- Code samples include assignments, labs, and final projects from the course.
+This repository contains a collection of Android projects built to practice and demonstrate modern mobile development skills using Kotlin, Java, and the Android SDK. Each project is organized in its own folder and can be run independently.
 
 
-## About the Course
+## Projects
 
-The course covered software design and programming principles and practices for developing applications for mobile devices. Topics include:
-- Application life-cycle
-- User interfaces on touch-screen devices
-- Options for data storage and communication
-- Power and performance considerations
-- Using graphics and media
-- Hardware features common in mobile devices such as GPS, accelerometers, and cameras
+| Project Name         | Description                                              | Link |
+| -------------------- | -------------------------------------------------------- | ---- |
+| `JJCapitalManager`   | Investment management app with SQLite, RecyclerView, and modern Android architecture. | [View Project](./JJCapitalManager) |
 
+## Features
 
-## License & Academic Integrity Disclaimer
+- **Modern Android Development**: Uses Android Studio, Gradle, and Jetpack libraries
+- **Kotlin & Java**: Core logic and UI written in Kotlin (with some Java support)
+- **SQLite Database**: Persistent local storage for structured data
+- **Responsive UI**: RecyclerView, dialogs, and material design patterns
+- **Best Practices**: Separation of concerns, modular code, and async operations
 
-All code in this repository is my original work, submitted for credit at Utah Valley University (UVU). This code is provided for personal reference and educational purposes only.
+## Technologies Used
 
-**Do not copy, reuse, or submit any part of this code as your own for any academic assignment or project.** Doing so may constitute plagiarism and could result in academic disciplinary action according to UVU's policies.
+- **Kotlin**: Primary language for app logic and UI
+- **Java**: Supported for interoperability and legacy code
+- **Android SDK**: Core framework for building native apps
+- **SQLite**: Local database for persistent storage
+- **Jetpack Libraries**: Lifecycle, RecyclerView, and more
+- **Gradle**: Build automation and dependency management
+
+## Learning Outcomes
+
+These projects demonstrate proficiency in:
+- Android app architecture and UI design
+- Asynchronous programming with coroutines
+- Data persistence and SQL
+- Modular, maintainable code organization
+- Real-world problem solving in mobile development
+
+---
