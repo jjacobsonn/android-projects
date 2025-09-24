@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Title Header -->
+    <TextView
+        android:id="@+id/headerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Investment"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/purple_500" />
+
+    <!-- Investment Name Field -->
+    <EditText
+        android:id="@+id/investmentNameInput"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Investment Name" />
+
+    <!-- Amount Invested Field -->
+    <EditText
+        android:id="@+id/amountInvestedInput"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount Invested"
+        android:inputType="numberDecimal" />
+
+    <!-- Return Rate Field -->
+    <EditText
+        android:id="@+id/returnRateInput"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Return Rate (%)"
+        android:inputType="numberDecimal" />
+
+    <!-- Total Growth Field -->
+    <EditText
+        android:id="@+id/totalGrowthInput"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total Growth"
+        android:inputType="numberDecimal" />
+
+    <!-- Add Investment Button -->
+    <Button
+        android:id="@+id/addInvestmentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Add Investment"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp" />
+</LinearLayout>

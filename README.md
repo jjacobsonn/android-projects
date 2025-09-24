@@ -21,6 +21,7 @@ This repository contains a collection of Android projects built to practice and 
 | `OrionOversight`     | Cosmic-themed Android splash/branding demo with dark theme, custom font, and clean architecture. | [View Project](./OrionOversight) |
 | `JJOrbitalScope`     | Planetary and satellite data visualizer using Jetpack Compose, live API, and Material3 theming. | [View Project](./JJOrbitalScope) |
 | `JJAdventureMap`     | Touch-driven adventure game with custom tile map, smooth scrolling, and dynamic player movement. | [View Project](./JJAdventureMap) |
+| `JJInvestmentTracker`| Modern investment tracker app with dynamic RecyclerView, add/delete, and modular architecture. | [View Project](./JJInvestmentTracker) |
 
 ## Features
 
