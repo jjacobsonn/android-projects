@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#005f73"> <!-- Black background -->
+
+    <!-- Title Header -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="JJ Adventure Map"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <!-- Instructions -->
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Tap anywhere to explore the map!"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic" />
+
+    <!-- Game Container -->
+    <FrameLayout
+        android:id="@+id/game_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/instructions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+
+</RelativeLayout>
