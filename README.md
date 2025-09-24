@@ -19,6 +19,7 @@ This repository contains a collection of Android projects built to practice and 
 | -------------------- | -------------------------------------------------------- | ---- |
 | `JJCapitalManager`   | Investment management app with SQLite, RecyclerView, and modern Android architecture. | [View Project](./JJCapitalManager) |
 | `OrionOversight`     | Cosmic-themed Android splash/branding demo with dark theme, custom font, and clean architecture. | [View Project](./OrionOversight) |
+| `JJOrbitalScope`     | Planetary and satellite data visualizer using Jetpack Compose, live API, and Material3 theming. | [View Project](./JJOrbitalScope) |
 
 ## Features
 
