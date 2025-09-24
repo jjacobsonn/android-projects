@@ -1,0 +1,79 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Investment Name (Title/Header) -->
+    <TextView
+        android:id="@+id/investmentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/purple_500" />
+
+    <!-- Amount Invested Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount Invested"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Amount Invested Value -->
+    <TextView
+        android:id="@+id/amountInvested"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginBottom="25dp" />
+
+    <!-- Return Rate Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return Rate"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Return Rate Value -->
+    <TextView
+        android:id="@+id/returnRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Total Growth Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Growth"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Total Growth Value -->
+    <TextView
+        android:id="@+id/totalGrowth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginBottom="18dp" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
