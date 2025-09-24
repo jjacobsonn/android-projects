@@ -22,6 +22,7 @@ This repository contains a collection of Android projects built to practice and 
 | `JJOrbitalScope`     | Planetary and satellite data visualizer using Jetpack Compose, live API, and Material3 theming. | [View Project](./JJOrbitalScope) |
 | `JJAdventureMap`     | Touch-driven adventure game with custom tile map, smooth scrolling, and dynamic player movement. | [View Project](./JJAdventureMap) |
 | `JJInvestmentTracker`| Modern investment tracker app with dynamic RecyclerView, add/delete, and modular architecture. | [View Project](./JJInvestmentTracker) |
+| `JJUnitConverter`     | Multi-currency converter app with robust logic, real-time error handling, and user-friendly UI. | [View Project](./JJUnitConverter) |
 
 ## Features
 
