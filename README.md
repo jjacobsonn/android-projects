@@ -24,6 +24,7 @@ This repository contains a collection of Android projects built to practice and 
 | `JJInvestmentTracker`| Modern investment tracker app with dynamic RecyclerView, add/delete, and modular architecture. | [View Project](./JJInvestmentTracker) |
 | `JJUnitConverter`     | Multi-currency converter app with robust logic, real-time error handling, and user-friendly UI. | [View Project](./JJUnitConverter) |
 | `JJLoanManager`      | Loan management and analytics app with amortization, sorting, and coroutine-driven calculations. | [View Project](./JJLoanManager) |
+| `JJLoanTracker`      | Streamlined loan tracker app with add/delete/clear/populate actions and detailed logging. | [View Project](./JJLoanTracker) |
 
 ## Features
 
