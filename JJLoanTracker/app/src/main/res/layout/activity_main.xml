@@ -1,0 +1,188 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/green_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loan Tracker"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_dark"
+            android:padding="16dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon"
+        android:contentDescription="App Icon"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CLEAR"
+            android:backgroundTint="@color/button_green"
+            android:textColor="@color/text_white"
+            android:textSize="18sp"
+            android:minHeight="60dp"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/printButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PRINT"
+            android:backgroundTint="@color/button_green"
+            android:textColor="@color/text_white"
+            android:textSize="18sp"
+            android:minHeight="60dp"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/populateButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="POPULATE"
+            android:backgroundTint="@color/button_green"
+            android:textColor="@color/text_white"
+            android:textSize="18sp"
+            android:minHeight="60dp"
+            android:minWidth="130dp"
+            android:singleLine="true"
+            android:ellipsize="none"
+            android:padding="8dp"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/idInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="ID"
+            android:inputType="number"
+            android:importantForAccessibility="no"
+            android:autofillHints=""
+            android:backgroundTint="@color/white"
+            android:background="@drawable/input_background"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginEnd="8dp"
+            android:minHeight="60dp" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:backgroundTint="@color/button_green"
+            android:textColor="@color/text_white"
+            android:textSize="18sp"
+            android:minHeight="60dp"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/loanNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Loan Name"
+        android:inputType="text"
+        android:importantForAccessibility="no"
+        android:autofillHints=""
+        android:backgroundTint="@color/white"
+        android:background="@drawable/input_background"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:minHeight="60dp" />
+
+    <EditText
+        android:id="@+id/principalInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Principal"
+        android:inputType="numberDecimal"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/input_background"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:minHeight="60dp" />
+
+    <EditText
+        android:id="@+id/interestRateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Interest Rate"
+        android:inputType="numberDecimal"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/input_background"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:minHeight="60dp" />
+
+    <EditText
+        android:id="@+id/termInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Term in Years"
+        android:inputType="number"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/input_background"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:minHeight="60dp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:backgroundTint="@color/button_green"
+        android:textColor="@color/text_white"
+        android:textSize="18sp"
+        android:minHeight="60dp"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
