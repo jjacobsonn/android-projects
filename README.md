@@ -23,6 +23,7 @@ This repository contains a collection of Android projects built to practice and 
 | `JJAdventureMap`     | Touch-driven adventure game with custom tile map, smooth scrolling, and dynamic player movement. | [View Project](./JJAdventureMap) |
 | `JJInvestmentTracker`| Modern investment tracker app with dynamic RecyclerView, add/delete, and modular architecture. | [View Project](./JJInvestmentTracker) |
 | `JJUnitConverter`     | Multi-currency converter app with robust logic, real-time error handling, and user-friendly UI. | [View Project](./JJUnitConverter) |
+| `JJLoanManager`      | Loan management and analytics app with amortization, sorting, and coroutine-driven calculations. | [View Project](./JJLoanManager) |
 
 ## Features
 
