@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#A3CFF7">
+
+    <!-- Header: Loans -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOANS"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Clear and Populate Buttons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLEAR"
+            android:layout_marginRight="8dp" />
+
+        <Button
+            android:id="@+id/btnPopulate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POPULATE" />
+    </LinearLayout>
+
+    <!-- Print Button -->
+    <Button
+        android:id="@+id/btnPrint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRINT"
+        android:layout_marginTop="8dp" />
+
+    <!-- ID Input and Delete Button -->
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:inputType="number"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:layout_marginTop="8dp" />
+
+    <!-- Loan Name Input -->
+    <EditText
+        android:id="@+id/etLoanName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Loan Name"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <!-- Principal Amount Input -->
+    <EditText
+        android:id="@+id/etPrincipalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Principal Amount"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <!-- Interest Rate Input -->
+    <EditText
+        android:id="@+id/etInterestRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Interest Rate (%)"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <!-- Term in Years Input -->
+    <EditText
+        android:id="@+id/etTermInYears"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Term in Years"
+        android:inputType="number"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <!-- Add Button -->
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
